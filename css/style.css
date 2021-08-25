@@ -275,7 +275,8 @@ ul.nav li.dropdown a {
 	display:none;
 }
 .pageTitle{
-color: #fff;
+color: #262626
+;
 margin: 30px 0 3px;
 display: inline-block;
 }
@@ -504,7 +505,9 @@ section.callaction {
 ==================================== */
 
 #inner-headline{
-	background: #0E987E;
+	background: #f4f4f4;
+
+;
 	position:relative;
 	margin:0;
 	padding:0;
@@ -586,7 +589,8 @@ padding: 6px 20px;
 font-size: 1em;
 cursor: pointer;
 border: 1px solid #E6E6E6;
-background: #37907F;
+background: #262626
+;
 color: #FFF;
 font-weight: 500;
 text-decoration: none;
@@ -952,7 +956,8 @@ blockquote cite a:visited 				{ color:#555; }
 
 /* --- button --- */
 .btn{text-align: center;
-background: #14987F;
+background: #262626
+;
 color: #fff;
 border-radius: 0;border: 0;}
 .btn-theme {
@@ -981,7 +986,8 @@ ul.link-list li{
 	list-style:none;
 }
 footer{
-background: #046E5A;
+background: #262626
+;
 }
 footer ul.link-list li a{
 	color:#fff;
@@ -1335,7 +1341,9 @@ ul.social-network li {
 	padding:0;
 	padding-top:30px;
 	margin:20px 0 0 0;
-	background: #002821;
+	background: #222222;
+
+;
 }
 
 #sub-footer p{

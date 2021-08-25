@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Free Bootstrap | webthemez</title>
+<title>Free Bootstrap Templates | webthemez</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
-<!-- css -->
+ 
 <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
 <link href="css/jcarousel.css" rel="stylesheet" />
@@ -21,6 +21,7 @@
 </head>
 <body>
 <div id="wrapper">
+
 	<!-- start header -->
 		<header>
         <div class="navbar navbar-default navbar-static-top">
@@ -34,134 +35,204 @@
                     <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li> 
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li class="active"><a href="pricing.html">Pricing</a></li>
+                 <ul class="nav navbar-nav">
+                        <li ><a href="index.html">Home</a></li> 
+            <li><a href="about.html">About Us</a></li>
+            <li ><a href="services.html">NEWS</a></li>
+            
+                        <li class="active"><a href="pricing.html">REFERENCES
+</a></li>
+                        <li><div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">PRODUCTS</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">NURSE CALL SYSTEMS </a>
+    <a href="#contact">MASTER CLOCK SYSTEMS</a>
+    <a href="#contact">QUEUE MANAGEMENT SYSTEMS
+</a>
+
+  </div>
+</div>
+</li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
 	</header><!-- end header -->
+
+<script type="text/javascript">
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<style type="text/css">
+.dropbtn {
+  background-color: white;
+  color: #6C6C6C;
+  padding: 10px;
+	font-size:12px;
+  border: none;
+  cursor: pointer;
+  	font-family:'Open Sans', Arial, sans-serif;
+  font-weight: bold;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #6C6C6C;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+</style>
+
+
+
 	<section id="inner-headline">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="pageTitle">Pricing</h2>
-			</div>
-		</div>
-	</div>
-	<section id="content">
-	<div class="container">	 
-	<div class="row"> 
-							<div class="col-md-12">
-								<div class="txtContent">
-									<h3>Our Best Deals!</h3>
-									<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-                                    	<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-								</div>
-								<a href="#" class="btn btn-color">Read more</a>  
-							</div>
-						</div>
-		<!-- end divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<h4>Our best plans</h4>
-			</div>
-			<div class="col-lg-3">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h3><strong>Basic</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;15.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Bootstrap Design</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> HTML5 CSS3 jQuery</li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h3><strong>Standard</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;20.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Bootstrap Design</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> HTML5 CSS3 jQuery</li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="pricing-box-item activeItem">
-					<div class="pricing-heading">
-						<h3><strong>Advanced</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;15.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Bootstrap Design</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> HTML5 CSS3 jQuery</li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h3><strong>Mighty</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;15.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Bootstrap Design</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> HTML5 CSS3 jQuery</li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
+				<h2 class="pageTitle">Our references
+</h2>
 			</div>
 		</div>
 	</div>
 	</section>
+	<section id="content">
+		<div class="container content">	
+<div class="row"> 
+							<div class="col-md-12">
+								<div class="about-logo">
+									<h3>Randa Company  References
+
+!</h3>
+									<p>As the Randa family, we care about participating in fairs around the world to introduce our newly developed products to the world.
+</p>
+                                    	
+								</div>
+							</div>
+						</div>		
+        <!-- Service Blcoks -->
+        <div class="row service-v1 margin-bottom-40">
+            <div class="col-md-4 md-margin-bottom-40">
+               <img class="img-responsive" src="https://prensmiskin.github.io/digimat/s1.png" alt="">   
+                <h2>Irak</h2>
+                <p>Irak – Al-Ramadi Maternity and Children Hospital – 250 Yataklı Hastane Projesi</p>        
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="https://prensmiskin.github.io/digimat/p5.png" alt="">            
+                <h2>Fuar</h2>
+                <p>A-Tech Fuarı 23-26 Kasım 2017 Ankara / Türkiye
+</p>        
+            </div>
+            <div class="col-md-4 md-margin-bottom-40">
+              <img class="img-responsive" src="https://prensmiskin.github.io/digimat/p4.png" alt="">  
+                <h2>Giresun</h2>
+                <p>
+Giresun Kale 350 Yataklı Eğitim ve Araştırma Hastanesi</p>        
+            </div>
+
+        </div>
+         <div class="row service-v1 margin-bottom-40">
+            <div class="col-md-4 md-margin-bottom-40">
+               <img class="img-responsive" src="https://prensmiskin.github.io/digimat/b2.png" alt="">   
+                <h2>Cairo / Egypt</h2>
+                <p>Mediconex 14 – 16 April 2018 Cairo / Egypt
+</p>        
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="https://prensmiskin.github.io/digimat/b3.png" alt="">            
+                <h2>Nairobi / Kenya</h2>
+                <p>Medic East Africa 7. Uluslararası Sağlık Fuarı 25 – 27 Eylül 2018 Nairobi / Kenya
+
+</p>        
+            </div>
+            <div class="col-md-4 md-margin-bottom-40">
+              <img class="img-responsive" src="https://prensmiskin.github.io/digimat/p6.png" alt="">  
+                <h2>Cairo / Egypt</h2>
+                <p>
+Mefsec 03 – 05.12.2017 Cairo / Egypt
+            </div>
+            
+        </div>
+        <!-- End Service Blcoks -->
+
+        <hr class="margin-bottom-50">
+<h2 style="text-align: center;margin-bottom: 5%;">Awards We Have Received
+</h2>
+        <!-- Info Blcoks -->
+        <div class="row">
+            <div class="col-sm-4 info-blocks">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtvDuSt_C-io8scG4hsY5s9bjnTp0a0P4qQ&usqp=CAU">                <div class="info-blocks-in">
+                    <h3>Awards We Have Received</h3>
+                    <p>Nurse Call System
+</p>
+                </div>
+            </div>
+            <div class="col-sm-4 info-blocks">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtvDuSt_C-io8scG4hsY5s9bjnTp0a0P4qQ&usqp=CAU">                   <div class="info-blocks-in">
+                    <h3 style="font-size:15px;">Nurse Call System Quality Award </h3>
+                    <p>Nurse Call System</p>
+                </div>
+            </div>
+            <div class="col-sm-4 info-blocks">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtvDuSt_C-io8scG4hsY5s9bjnTp0a0P4qQ&usqp=CAU">                 <div class="info-blocks-in">
+                    <h3 style="font-size:15px;"> Best Communication System Award </h3>
+                    <p>Nurse Call System</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Info Blcoks -->
+
+       
+        <!-- Info Blcoks -->
+       
+        <!-- End Info Blcoks -->
+
+        
+    </div>
+    </section>
 	<footer>
 	<div class="container">
 		<div class="row">
@@ -212,6 +283,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="sub-footer">
 		<div class="container">
 			<div class="row">
