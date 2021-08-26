@@ -12,7 +12,8 @@
 <link href="css/jcarousel.css" rel="stylesheet" />
 <link href="css/flexslider.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
- 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,42 +24,69 @@
 <div id="wrapper">
 
 	<!-- start header -->
-		<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
-                </div>
-                <div class="navbar-collapse collapse " >
-                 <ul class="nav navbar-nav" >
-                        <li ><a href="index.html">Home</a></li> 
-            <li><a href="about.html">About Us</a></li>
-            <li ><a href="services.html">NEWS</a></li>
-            
-                        <li ><a href="pricing.html">REFERENCES
-</a></li>
-                        <li ><div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">PRODUCTS</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="nursecallsystem.html">NURSE CALL SYSTEMS </a>
-    <a href="#contact">MASTER CLOCK SYSTEMS</a>
-    <a href="#contact">QUEUE MANAGEMENT SYSTEMS
-</a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="https://randa.com.tr/wp-content/uploads/2019/02/logo.png" height="40" alt="">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  </div>
-</div>
-</li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav navbar-nav ml-auto" style="font-size: 14px;">
+      <li class="nav-item active" >
+        <a class="nav-link" style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" href="about.html">About Us</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link"  style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" href="services.html">NEWS</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" href="pricing.html">REFERENCES</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a  style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PRODUCTS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" class="dropdown-item" href="nursecallsystem.html">NURSE CALL SYSTEMS</a>
+          <a style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" class="dropdown-item" href="clock.html">MASTER CLOCK SYSTEMS</a>
+          <a style="font-family:'Open Sans', Arial, sans-serif;
+  font-weight:700;
+  line-height:1.6em;
+  color:#777;" class="dropdown-item" href="kiosk.html">QUEUE MANAGEMENT SYSTEMS</a>
         </div>
-	</header><!-- end header -->
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button style="border-color: #777;color: #777;" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
 <script type="text/javascript">
 /* When the user clicks on the button, 
@@ -284,5 +312,8 @@ One of the key elements of providing quality care is to install the best nurse c
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
